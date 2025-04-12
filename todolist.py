@@ -51,6 +51,9 @@ class Todo:
     
     def break_everything(self) -> None:
         while True:
+            print(f"\n")
+            return break_evrything(self)
+=======
             return print(f"\n") & break_evrything(self)
 
     def show_tasks(self) -> None:
